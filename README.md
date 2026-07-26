@@ -1,6 +1,10 @@
 # Curso Claude 101 de Anthropic - Repositorio Profesional de Estudio
 
-Bienvenido al repositorio oficial de estudio y preparación para el examen de certificación **Claude 101 de Anthropic**. Este espacio reúne todas las lecciones teóricas, guías prácticas, matrices comparativas, patrones de prompt engineering y estrategias de integración para dominar el uso de Claude en entornos corporativos y de desarrollo de software.
+Bienvenido al repositorio oficial de estudio y preparación para el examen de certificación **Claude 101 de Anthropic**. Este espacio reúne todas las lecciones teóricas, guías prácticas, matrices comparativas, patrones de prompt engineering, estrategias de integración y la plataforma web interactiva del **Aula Virtual** lista para **GitHub Pages**.
+
+> [!IMPORTANT]
+> **¿Eres un agente de Inteligencia Artificial (Claude, Gemini, Copilot, Codex)?**
+> Antes de realizar cualquier modificación en este repositorio, lee atentamente el archivo **[AGENTS.md](file:///c:/Users/BlandskronNotebook/Documents/blandskron/claude/curso-claude-101/AGENTS.md)** para conocer las reglas de operación, rutas protegidas y criterios de validación.
 
 ---
 
@@ -39,19 +43,27 @@ El curso está organizado en **4 módulos principales** que contienen **13 lecci
 
 ---
 
-## 🛠️ Marcos Metodológicos Principales Incluidos
+## 🤖 Arquitectura Agents-First y Documentación de IA
 
-1. **Framework 3C para Prompts**: *Contexto* (Preparar el terreno) + *Tarea* (Acción concreta) + *Reglas* (Restricciones y formato).
-2. **Marco 4D para la Fluidez en IA**: *Delegación* (Asignación de tareas) + *Descripción* (Instrucciones claras) + *Discernimiento* (Auditoría crítica) + *Diligencia* (Responsabilidad ética).
-3. **Tríada Operativa de IA**:
-   - **Proyectos**: Define el *Qué* (Contexto y RAG).
-   - **Artefactos**: Define el *Entregable* (Componentes e Interfaces).
-   - **Habilidades (*Skills*)**: Define el *Cómo* (Procedimientos y Código).
+Este repositorio cuenta con una estructura dedicada para guiar la colaboración con agentes autónomos:
+
+- **[AGENTS.md](file:///c:/Users/BlandskronNotebook/Documents/blandskron/claude/curso-claude-101/AGENTS.md)**: Punto de entrada prioritario para agentes.
+- **[CLAUDE.md](file:///c:/Users/BlandskronNotebook/Documents/blandskron/claude/curso-claude-101/CLAUDE.md)**: Instrucciones optimizadas para Anthropic Claude.
+- **[GEMINI.md](file:///c:/Users/BlandskronNotebook/Documents/blandskron/claude/curso-claude-101/GEMINI.md)**: Instrucciones optimizadas para Google Gemini.
+- **[docs/agent/](file:///c:/Users/BlandskronNotebook/Documents/blandskron/claude/curso-claude-101/docs/agent/)**: Documentación de gobernanza (Permisos, Runbook, Tests, Seguridad, Configuración y Esquema de Datos).
 
 ---
 
-## 🚀 Cómo Utilizar este Repositorio
+## 🌐 Aula Virtual en Vivo (GitHub Pages)
 
-1. **Navegación Secuencial**: Sigue el orden numérico de los archivos desde el `Módulo 00` hasta el `Módulo 04`.
-2. **Ejercicios Prácticos**: Cada lección contiene una sección dedicada de ejercicios prácticos guiados para ejecutar en Claude.ai o en la App de Escritorio.
-3. **Referencia Rápida**: Utiliza las tablas comparativas y diagramas ASCII distribuidos en las lecciones como guía rápida durante tu trabajo diario.
+Para previsualizar la plataforma interactiva del Aula Virtual en tu ordenador:
+```bash
+python -m http.server 8000
+```
+Luego abre en tu navegador `http://localhost:8000`.
+
+---
+
+## 👨‍💻 Autor y Contacto
+Desarrollado por **[Blandskron](https://github.com/Blandskron)**.
+- 💼 LinkedIn: [linkedin.com/in/blandskron](https://www.linkedin.com/in/blandskron/)
