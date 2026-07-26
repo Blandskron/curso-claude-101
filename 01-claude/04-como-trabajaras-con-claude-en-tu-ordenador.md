@@ -149,3 +149,15 @@ Realiza este ejercicio práctico utilizando la aplicación en tu ordenador:
 > Has completado el módulo introductorio sobre Claude. Ahora comprendes su naturaleza como *Thinking Partner*, el framework de prompting profesional (3C), la resolución de problemas con Prompt Engineering avanzado y el marco 4D, así como el uso de la app de escritorio y sus 3 modalidades de trabajo (Chat, Cowork y Claude Code).
 
 ¡Felicitaciones! Estás listo para avanzar al **Módulo 02: Organiza tu Trabajo**, donde aprenderás a estructurar proyectos complejos, gestionar colecciones de conocimiento y optimizar tus flujos de trabajo profesionales con Claude.
+
+
+## Fuentes y recursos relacionados
+
+- Documentación oficial de Anthropic: [docs.anthropic.com](https://docs.anthropic.com/)
+- Centro de ayuda de Claude: [support.anthropic.com](https://support.anthropic.com/)
+- Material de referencia del curso Claude 101 de Anthropic.
+
+**Última revisión:** 2026-07-26
+
+> [!NOTE]
+> Las funciones, límites y capacidades de Claude pueden cambiar según el modelo utilizado, el plan de suscripción y las actualizaciones del producto. Este material es un recurso educativo independiente elaborado para facilitar el estudio en español.

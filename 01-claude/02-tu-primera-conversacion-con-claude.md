@@ -170,3 +170,15 @@ Aplica lo aprendido ejecutando el siguiente flujo en Claude.ai:
 > La calidad de las respuestas de Claude es proporcional a la claridad del contexto proporcionado. Definir el terreno, especificar las reglas e iterar sin miedo son los tres hábitos que diferencian a un usuario básico de un profesional fluido en IA.
 
 En la **[Lección 03: Obtener mejores resultados](file:///c:/Users/BlandskronNotebook/Documents/blandskron/claude/curso-claude-101/01-claude/03-obtener-mejores-resultados.md)**, estudiaremos técnicas avanzadas de prompt engineering, la matriz de resolución de problemas y cómo implementar evaluaciones (Evals) para medir el rendimiento de Claude.
+
+
+## Fuentes y recursos relacionados
+
+- Documentación oficial de Anthropic: [docs.anthropic.com](https://docs.anthropic.com/)
+- Centro de ayuda de Claude: [support.anthropic.com](https://support.anthropic.com/)
+- Material de referencia del curso Claude 101 de Anthropic.
+
+**Última revisión:** 2026-07-26
+
+> [!NOTE]
+> Las funciones, límites y capacidades de Claude pueden cambiar según el modelo utilizado, el plan de suscripción y las actualizaciones del producto. Este material es un recurso educativo independiente elaborado para facilitar el estudio en español.

@@ -135,3 +135,15 @@ Diseña una evaluación en tu entorno de trabajo:
 > Perfeccionar los resultados con Claude requiere pasar de la intuición a la ingeniería: utilizar etiquetas XML, dar ejemplos claros y establecer evaluaciones sistemáticas para garantizar que la IA funcione como un motor predecible de alta calidad.
 
 En la **[Lección 04: Cómo trabajarás con Claude en tu ordenador](file:///c:/Users/BlandskronNotebook/Documents/blandskron/claude/curso-claude-101/01-claude/04-como-trabajaras-con-claude-en-tu-ordenador.md)**, analizaremos las tres modalidades operativas de la aplicación de escritorio: **Chat**, **Cowork** y **Claude Code**.
+
+
+## Fuentes y recursos relacionados
+
+- Documentación oficial de Anthropic: [docs.anthropic.com](https://docs.anthropic.com/)
+- Centro de ayuda de Claude: [support.anthropic.com](https://support.anthropic.com/)
+- Material de referencia del curso Claude 101 de Anthropic.
+
+**Última revisión:** 2026-07-26
+
+> [!NOTE]
+> Las funciones, límites y capacidades de Claude pueden cambiar según el modelo utilizado, el plan de suscripción y las actualizaciones del producto. Este material es un recurso educativo independiente elaborado para facilitar el estudio en español.

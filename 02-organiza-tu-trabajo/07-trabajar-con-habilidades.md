@@ -112,3 +112,15 @@ Es muy común confundir estas dos herramientas. Utiliza esta tabla para estructu
 > Los Proyectos le otorgan memoria y contexto a Claude; las Habilidades le otorgan manos operativas para ejecutar procedimientos rigurosos y entregar archivos listos para producción.
 
 Con esto concluimos el **Módulo 02: Organiza tu Trabajo**. En el **[Módulo 03 - Lección 08: Conectando tus herramientas](file:///c:/Users/BlandskronNotebook/Documents/blandskron/claude/curso-claude-101/03-ampliando-el-alcance-de-claude/08-conectando-tus-herramientas.md)**, aprenderemos a integrar a Claude con aplicaciones externas como Slack, Google Drive, Notion y servicios en la nube mediante el estándar MCP.
+
+
+## Fuentes y recursos relacionados
+
+- Documentación oficial de Anthropic: [docs.anthropic.com](https://docs.anthropic.com/)
+- Centro de ayuda de Claude: [support.anthropic.com](https://support.anthropic.com/)
+- Material de referencia del curso Claude 101 de Anthropic.
+
+**Última revisión:** 2026-07-26
+
+> [!NOTE]
+> Las funciones, límites y capacidades de Claude pueden cambiar según el modelo utilizado, el plan de suscripción y las actualizaciones del producto. Este material es un recurso educativo independiente elaborado para facilitar el estudio en español.

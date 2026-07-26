@@ -88,3 +88,15 @@ La versatilidad de Claude permite una adopción escalada en toda la organizació
 > La adopción exitosa de Claude se mide por el impacto directo en los entregables diarios de cada departamento de la empresa.
 
 En la **[Lección 12: Otras formas de trabajar con Claude](file:///c:/Users/BlandskronNotebook/Documents/blandskron/claude/curso-claude-101/04-conclusion/12-otras-formas-de-trabajar-con-claude.md)**, cerraremos el curso revisando el ecosistema extendido (Claude Code, Slack, Design, M365 y Chrome).
+
+
+## Fuentes y recursos relacionados
+
+- Documentación oficial de Anthropic: [docs.anthropic.com](https://docs.anthropic.com/)
+- Centro de ayuda de Claude: [support.anthropic.com](https://support.anthropic.com/)
+- Material de referencia del curso Claude 101 de Anthropic.
+
+**Última revisión:** 2026-07-26
+
+> [!NOTE]
+> Las funciones, límites y capacidades de Claude pueden cambiar según el modelo utilizado, el plan de suscripción y las actualizaciones del producto. Este material es un recurso educativo independiente elaborado para facilitar el estudio en español.

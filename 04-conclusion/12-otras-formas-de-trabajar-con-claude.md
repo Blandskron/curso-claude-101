@@ -83,3 +83,15 @@ Utiliza este cuadro de mando para seleccionar la interfaz perfecta según el tra
 > Has recorrido desde los fundamentos éticos de la IA Constitucional, pasando por la construcción de prompts profesionales (3C), el diseño de Evals y el marco 4D, hasta la gestión de Proyectos, Artefactos, Habilidades (Skills), Conectores MCP y el ecosistema multipunto.
 
 Ahora cuentas con todas las competencias teóricas y prácticas para convertirte en un **profesional fluido en Inteligencia Artificial**, capaz de transformar la productividad y la calidad del trabajo en tu organización.
+
+
+## Fuentes y recursos relacionados
+
+- Documentación oficial de Anthropic: [docs.anthropic.com](https://docs.anthropic.com/)
+- Centro de ayuda de Claude: [support.anthropic.com](https://support.anthropic.com/)
+- Material de referencia del curso Claude 101 de Anthropic.
+
+**Última revisión:** 2026-07-26
+
+> [!NOTE]
+> Las funciones, límites y capacidades de Claude pueden cambiar según el modelo utilizado, el plan de suscripción y las actualizaciones del producto. Este material es un recurso educativo independiente elaborado para facilitar el estudio en español.

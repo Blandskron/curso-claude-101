@@ -108,3 +108,15 @@ Al conectar herramientas de software externas, Claude opera bajo estrictos proto
 > Los conectores impulsados por el protocolo MCP eliminan la necesidad de actuar como puente manual de copiar y pegar entre tus herramientas de software y Claude.
 
 En la **[Lección 09: Búsqueda empresarial](file:///c:/Users/BlandskronNotebook/Documents/blandskron/claude/curso-claude-101/03-ampliando-el-alcance-de-claude/09-busqueda-empresarial.md)**, analizaremos el panorama del software empresarial en Latinoamérica (ERP, CRM, POS, HR) y cómo orquestar búsquedas sobre bases de conocimiento corporativas de gran escala.
+
+
+## Fuentes y recursos relacionados
+
+- Documentación oficial de Anthropic: [docs.anthropic.com](https://docs.anthropic.com/)
+- Centro de ayuda de Claude: [support.anthropic.com](https://support.anthropic.com/)
+- Material de referencia del curso Claude 101 de Anthropic.
+
+**Última revisión:** 2026-07-26
+
+> [!NOTE]
+> Las funciones, límites y capacidades de Claude pueden cambiar según el modelo utilizado, el plan de suscripción y las actualizaciones del producto. Este material es un recurso educativo independiente elaborado para facilitar el estudio en español.

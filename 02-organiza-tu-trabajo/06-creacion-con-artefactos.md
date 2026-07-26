@@ -111,3 +111,15 @@ Claude permite compartir Artefactos de forma flexible:
 > Los Artefactos transforman la interacción con Claude de una conversación pasiva a un taller de prototipado e ingeniería ágil en tiempo real.
 
 En la **[Lección 07: Trabajar con habilidades](file:///c:/Users/BlandskronNotebook/Documents/blandskron/claude/curso-claude-101/02-organiza-tu-trabajo/07-trabajar-con-habilidades.md)**, descubriremos cómo equipar a Claude con paquetes procedimentales ejecutables para automatizar flujos de trabajo repetitivos.
+
+
+## Fuentes y recursos relacionados
+
+- Documentación oficial de Anthropic: [docs.anthropic.com](https://docs.anthropic.com/)
+- Centro de ayuda de Claude: [support.anthropic.com](https://support.anthropic.com/)
+- Material de referencia del curso Claude 101 de Anthropic.
+
+**Última revisión:** 2026-07-26
+
+> [!NOTE]
+> Las funciones, límites y capacidades de Claude pueden cambiar según el modelo utilizado, el plan de suscripción y las actualizaciones del producto. Este material es un recurso educativo independiente elaborado para facilitar el estudio en español.

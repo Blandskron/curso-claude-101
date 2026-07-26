@@ -109,3 +109,15 @@ Para internalizar los conceptos de esta lección, realiza el siguiente ejercicio
 > Claude no es solo una herramienta de respuesta rápida, sino un entorno de colaboración inteligente. Tú aportas el contexto, la experiencia y el criterio final; Claude aporta la velocidad de procesamiento, la capacidad de síntesis y el razonamiento avanzado.
 
 En la **[Lección 02: Tu primera conversación con Claude](file:///c:/Users/BlandskronNotebook/Documents/blandskron/claude/curso-claude-101/01-claude/02-tu-primera-conversacion-con-claude.md)**, exploraremos en detalle la interfaz de usuario, cómo construir prompts estructurados utilizando el framework profesional de Anthropic y cómo gestionar la memoria y contexto de tus chats.
+
+
+## Fuentes y recursos relacionados
+
+- Documentación oficial de Anthropic: [docs.anthropic.com](https://docs.anthropic.com/)
+- Centro de ayuda de Claude: [support.anthropic.com](https://support.anthropic.com/)
+- Material de referencia del curso Claude 101 de Anthropic.
+
+**Última revisión:** 2026-07-26
+
+> [!NOTE]
+> Las funciones, límites y capacidades de Claude pueden cambiar según el modelo utilizado, el plan de suscripción y las actualizaciones del producto. Este material es un recurso educativo independiente elaborado para facilitar el estudio en español.

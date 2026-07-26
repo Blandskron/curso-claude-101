@@ -107,3 +107,15 @@ Un equipo directivo desea evaluar una fusión o adquisición (*M&A*):
 > La investigación sistémica transforma a Claude de un asistente reactivo a un centro de inteligencia de mercado capaz de generar valor estratégico de nivel ejecutivo.
 
 Con esto concluimos el **Módulo 03: Ampliando el Alcance de Claude**. En el **[Módulo 04 - Lección 11: Claude en acción - casos de uso por rol](file:///c:/Users/BlandskronNotebook/Documents/blandskron/claude/curso-claude-101/04-conclusion/11-claude-en-accion-casos-de-uso-por-rol.md)**, analizaremos la aplicación práctica de Claude en Ventas, Marketing, Finanzas, RRHH y Legal.
+
+
+## Fuentes y recursos relacionados
+
+- Documentación oficial de Anthropic: [docs.anthropic.com](https://docs.anthropic.com/)
+- Centro de ayuda de Claude: [support.anthropic.com](https://support.anthropic.com/)
+- Material de referencia del curso Claude 101 de Anthropic.
+
+**Última revisión:** 2026-07-26
+
+> [!NOTE]
+> Las funciones, límites y capacidades de Claude pueden cambiar según el modelo utilizado, el plan de suscripción y las actualizaciones del producto. Este material es un recurso educativo independiente elaborado para facilitar el estudio en español.

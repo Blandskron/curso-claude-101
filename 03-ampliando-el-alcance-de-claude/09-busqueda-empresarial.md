@@ -116,3 +116,15 @@ Para consultar datos empresariales complejos con Claude, aplica este patrón de 
 > La Búsqueda Empresarial transforma a Claude en la interfaz de lenguaje natural para todo el stack tecnológico de tu organización, permitiendo tomar decisiones informadas en segundos.
 
 En la **[Lección 10: Investigación para análisis en profundidad](file:///c:/Users/BlandskronNotebook/Documents/blandskron/claude/curso-claude-101/03-ampliando-el-alcance-de-claude/10-investigacion-para-analisis-en-profundidad.md)**, estudiaremos cómo ejecutar investigaciones sistémicas avanzadas combinando datos públicos y privados.
+
+
+## Fuentes y recursos relacionados
+
+- Documentación oficial de Anthropic: [docs.anthropic.com](https://docs.anthropic.com/)
+- Centro de ayuda de Claude: [support.anthropic.com](https://support.anthropic.com/)
+- Material de referencia del curso Claude 101 de Anthropic.
+
+**Última revisión:** 2026-07-26
+
+> [!NOTE]
+> Las funciones, límites y capacidades de Claude pueden cambiar según el modelo utilizado, el plan de suscripción y las actualizaciones del producto. Este material es un recurso educativo independiente elaborado para facilitar el estudio en español.

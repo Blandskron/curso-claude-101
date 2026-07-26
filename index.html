@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <!-- Primary SEO Meta Tags -->
-  <title>Aula Virtual | Curso Claude 101 de Anthropic - Aprende IA Profesional</title>
-  <meta name="title" content="Aula Virtual | Curso Claude 101 de Anthropic - Aprende IA Profesional">
-  <meta name="description" content="Curso interactivo gratuito y completo sobre Claude de Anthropic (Claude 101). Lecciones avanzadas de Prompt Engineering, IA Constitucional, RAG, Protocolo MCP, Artefactos y Automatización.">
-  <meta name="keywords" content="Claude, Anthropic, Claude 101, Inteligencia Artificial, Prompt Engineering, RAG, MCP Protocol, Claude Code, Aula Virtual, Curso Gratis, IA Generativa, Anthropic Certification">
+  <title>Claude 101 en español | Material independiente de estudio</title>
+  <meta name="title" content="Claude 101 en español | Material independiente de estudio">
+  <meta name="description" content="Apuntes, lecturas, ejemplos, glosario, video y podcast en español para acompañar el estudio de Claude 101 de Anthropic. Proyecto educativo independiente sin afiliación oficial.">
+  <meta name="keywords" content="Claude, Anthropic, Claude 101, Inteligencia Artificial, Prompt Engineering, RAG, MCP Protocol, Claude Code, Material de Estudio, Glosario IA, IA Generativa">
   <meta name="author" content="Blandskron">
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#0b0f19">
@@ -21,77 +21,89 @@
   <!-- Open Graph / Facebook / WhatsApp / LinkedIn -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://blandskron.github.io/curso-claude-101/">
-  <meta property="og:title" content="Aula Virtual - Curso Claude 101 de Anthropic">
-  <meta property="og:description" content="Aprende a dominar Claude de Anthropic desde cero hasta nivel profesional. Lecciones interactivas, guías prácticas, prompt engineering y arquitectura de IA.">
+  <meta property="og:title" content="Claude 101 en español | Material independiente de estudio">
+  <meta property="og:description" content="Apuntes, lecturas, ejemplos, glosario técnico y recursos en español para estudiar Claude 101 de Anthropic. No oficial.">
   <meta property="og:image" content="https://blandskron.github.io/curso-claude-101/assets/img/logo-white.png">
-  <meta property="og:site_name" content="Claude 101 LMS">
+  <meta property="og:site_name" content="Claude 101 en español">
 
   <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:url" content="https://blandskron.github.io/curso-claude-101/">
-  <meta name="twitter:title" content="Aula Virtual - Curso Claude 101 de Anthropic">
-  <meta name="twitter:description" content="Curso profesional interactivo sobre Claude de Anthropic. Prompt Engineering, RAG, MCP, Artefactos y más.">
+  <meta name="twitter:title" content="Claude 101 en español | Material independiente de estudio">
+  <meta name="twitter:description" content="Material complementario de estudio en español para comprender Claude 101 de Anthropic.">
   <meta name="twitter:image" content="https://blandskron.github.io/curso-claude-101/assets/img/logo-white.png">
 
-  <!-- Schema.org JSON-LD for Google Course Rich Snippets -->
+  <!-- Schema.org JSON-LD for Educational Resource -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Course",
-    "name": "Curso Profesional Claude 101 de Anthropic",
-    "description": "Curso completo e interactivo sobre la arquitectura, prompting, proyectos, artefactos y protocolo MCP en Claude de Anthropic.",
-    "provider": {
-      "@type": "Organization",
-      "name": "Blandskron",
-      "sameAs": "https://blandskron.github.io/curso-claude-101/"
-    },
-    "educationalLevel": "Intermediate to Advanced",
+    "@type": "EducationalResource",
+    "name": "Claude 101 en español - Material de Estudio Independiente",
+    "description": "Recopilación de apuntes, lecturas, ejemplos y glosario en español para facilitar el estudio autónomo de Claude 101 de Anthropic.",
+    "educationalUse": "Study Guide",
     "inLanguage": "es",
     "isAccessibleForFree": true,
-    "hasCourseInstance": {
-      "@type": "CourseInstance",
-      "courseMode": "Online",
-      "courseWorkload": "PT10H"
+    "author": {
+      "@type": "Person",
+      "name": "Blandskron",
+      "sameAs": "https://github.com/Blandskron"
     }
   }
   </script>
 
+  <!-- External Libraries: Marked (Markdown Parser) & DOMPurify (HTML Sanitizer) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.0/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.9/purify.min.js"></script>
+
   <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
+
+  <!-- Skip to Main Content Link for WCAG Accessibility -->
+  <a href="#main-content-area" class="skip-link">Saltar al contenido principal</a>
 
   <!-- Ambient Background Effect -->
   <div class="bg-glow bg-glow-1"></div>
   <div class="bg-glow bg-glow-2"></div>
 
   <!-- Toast Notification -->
-  <div class="toast-notification" id="toastNotification">¡Código copiado al portapapeles!</div>
+  <div class="toast-notification" id="toastNotification" role="status" aria-live="polite">¡Código copiado al portapapeles!</div>
 
   <div class="app-container">
     
     <!-- SIDEBAR NAVIGATION -->
-    <aside class="sidebar" id="sidebar">
+    <aside class="sidebar" id="sidebar" aria-label="Navegación principal del curso">
       <div class="sidebar-header">
         <div class="brand">
-          <!-- Dynamic Brand Icon (ico-white.png for Dark Mode / ico-black.png for Light Mode) -->
           <img src="assets/img/ico-white.png" alt="Blandskron Icon" class="brand-icon-img" id="brandIconImg">
-          <h1 class="brand-title">Claude 101 LMS</h1>
+          <h1 class="brand-title">Claude 101 <span class="badge-lang">Español</span></h1>
+        </div>
+      </div>
+
+      <!-- Quick Search Bar -->
+      <div class="sidebar-search-box">
+        <div class="search-input-wrapper">
+          <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+          </svg>
+          <input type="search" id="searchInput" placeholder="Buscar temas o glosario..." aria-label="Buscar lecciones o términos del glosario" autocomplete="off">
+          <button id="clearSearchBtn" aria-label="Limpiar búsqueda" style="display:none;">&times;</button>
         </div>
       </div>
 
       <!-- Dynamic Modules Navigation -->
-      <nav class="modules-nav" id="modulesNav">
+      <nav class="modules-nav" id="modulesNav" aria-label="Lista de módulos y lecciones">
         <!-- Rendered dynamically by app.js -->
       </nav>
     </aside>
 
     <!-- MAIN CONTENT DISPLAY AREA -->
-    <main class="main-content">
+    <main class="main-content" id="main-content-area" tabindex="-1">
       
       <!-- Top Navigation Header -->
       <header class="top-header">
         <div class="left-header-controls">
-          <button class="toggle-sidebar-btn" id="toggleSidebarBtn" aria-label="Abrir menú">
+          <button class="toggle-sidebar-btn" id="toggleSidebarBtn" aria-label="Abrir menú de lecciones" aria-expanded="false" aria-controls="sidebar">
             <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
             </svg>
@@ -105,73 +117,98 @@
 
         <div class="right-header-controls">
           <!-- Theme Switcher Button -->
-          <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Cambiar tema claro/oscuro" title="Cambiar tema">
+          <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Cambiar tema entre modo claro y oscuro" title="Cambiar tema">
             <!-- Icon rendered by app.js -->
           </button>
 
-          <!-- Media Mode Switcher Tabs -->
-          <div class="media-tabs">
-            <button class="tab-btn active" id="tabReadingBtn">
-              <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <!-- Media Mode Switcher Tabs (WCAG Compliant Tablist) -->
+          <div class="media-tabs" role="tablist" aria-label="Modo de visualización de contenido">
+            <button class="tab-btn active" id="tabReadingBtn" role="tab" aria-selected="true" aria-controls="readingView">
+              <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
               </svg>
               Lectura (.md)
             </button>
 
-            <button class="tab-btn" id="tabVideoBtn">
-              <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <button class="tab-btn" id="tabVideoBtn" role="tab" aria-selected="false" aria-controls="videoView">
+              <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/>
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
               </svg>
               Vídeo (.mp4)
             </button>
 
-            <button class="tab-btn" id="tabAudioBtn">
-              <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <button class="tab-btn" id="tabAudioBtn" role="tab" aria-selected="false" aria-controls="audioView">
+              <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 016 0v6a3 3 0 01-3 3z"/>
               </svg>
-              Audio (.m4a)
+              Podcast (.m4a)
+            </button>
+
+            <button class="tab-btn" id="tabGlossaryBtn" role="tab" aria-selected="false" aria-controls="glossaryView">
+              <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M3 10h10M3 15h14M17 5l4 4-4 4"/>
+              </svg>
+              Glosario
             </button>
           </div>
         </div>
       </header>
 
-      <!-- View Containers -->
+      <!-- Main View Containers -->
       <section class="view-container">
-        <article class="content-card">
+        
+        <!-- Search Results Panel (Overlay when searching) -->
+        <div id="searchResultsView" style="display: none;" class="content-card search-results-card">
+          <div class="search-results-header">
+            <h3>Resultados de Búsqueda</h3>
+            <span id="searchResultsCount" class="results-count-badge">0 resultados</span>
+          </div>
+          <div id="searchResultsList" class="search-results-list"></div>
+        </div>
+
+        <!-- Content Display Card -->
+        <article class="content-card" id="mainContentCard">
+          
           <!-- Reading View -->
-          <div id="readingView"></div>
+          <div id="readingView" role="tabpanel" aria-labelledby="tabReadingBtn"></div>
 
           <!-- Video Player View -->
-          <div id="videoView" style="display: none;"></div>
+          <div id="videoView" role="tabpanel" aria-labelledby="tabVideoBtn" style="display: none;"></div>
 
           <!-- Audio Player View -->
-          <div id="audioView" style="display: none;"></div>
+          <div id="audioView" role="tabpanel" aria-labelledby="tabAudioBtn" style="display: none;"></div>
+
+          <!-- Glossary View -->
+          <div id="glossaryView" role="tabpanel" aria-labelledby="tabGlossaryBtn" style="display: none;"></div>
+
         </article>
 
-        <!-- FOOTER COMPONENT WITH FULL LOGO & SOCIAL LINKS -->
+        <!-- FOOTER COMPONENT WITH INDEPENDENCE DISCLAIMER & SOCIAL LINKS -->
         <footer class="app-footer">
           <div class="footer-brand">
-            <img src="assets/img/logo-white.png" alt="Blandskron Brand Logo" class="footer-logo-img" id="footerLogoImg">
+            <img src="assets/img/logo-white.png" alt="Logo de la Marca" class="footer-logo-img" id="footerLogoImg">
+          </div>
+
+          <div class="footer-disclaimer-box">
+            <p><strong>Aviso de Independencia:</strong> Claude 101 en español es un proyecto educativo independiente que reúne apuntes, lecturas, ejemplos y recursos complementarios para facilitar el estudio de Claude 101 a personas hispanohablantes. No está afiliado, patrocinado ni respaldado oficialmente por Anthropic y no reemplaza el contenido original del curso.</p>
           </div>
 
           <div class="footer-socials">
-            <!-- GitHub Link -->
-            <a href="https://github.com/Blandskron" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub / Blandskron" aria-label="GitHub">
-              <svg fill="currentColor" viewBox="0 0 24 24">
+            <a href="https://github.com/Blandskron/curso-claude-101" target="_blank" rel="noopener noreferrer" class="social-link" title="Repositorio en GitHub" aria-label="GitHub">
+              <svg fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
               </svg>
             </a>
 
-            <!-- LinkedIn Link -->
-            <a href="https://www.linkedin.com/in/blandskron/" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn / Blandskron" aria-label="LinkedIn">
-              <svg fill="currentColor" viewBox="0 0 24 24">
+            <a href="https://www.linkedin.com/in/blandskron/" target="_blank" rel="noopener noreferrer" class="social-link" title="Perfil de LinkedIn" aria-label="LinkedIn">
+              <svg fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.25V10.9H6.46M7.86 6.74a1.62 1.62 0 1 0 0 3.24 1.62 1.62 0 0 0 0-3.24z"/>
               </svg>
             </a>
           </div>
 
-          <p class="footer-credits">Curso Claude 101 de Anthropic — Desarrollado por <a href="https://github.com/Blandskron" target="_blank" rel="noopener noreferrer">Blandskron</a></p>
+          <p class="footer-credits">Material Educativo Independiente — Elaborado por <a href="https://github.com/Blandskron" target="_blank" rel="noopener noreferrer">Blandskron</a></p>
         </footer>
       </section>
 

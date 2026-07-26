@@ -123,3 +123,15 @@ Configura un Proyecto en Claude:
 > Pasar de chats individuales a Proyectos estructurados es el paso decisivo para convertir a Claude de un asistente personal a un motor de inteligencia corporativo.
 
 En la **[Lección 06: Creación con artefactos](file:///c:/Users/BlandskronNotebook/Documents/blandskron/claude/curso-claude-101/02-organiza-tu-trabajo/06-creacion-con-artefactos.md)**, exploraremos la interfaz de desarrollo interactivo para generar código, documentos, prototipos React y diagramas de arquitectura.
+
+
+## Fuentes y recursos relacionados
+
+- Documentación oficial de Anthropic: [docs.anthropic.com](https://docs.anthropic.com/)
+- Centro de ayuda de Claude: [support.anthropic.com](https://support.anthropic.com/)
+- Material de referencia del curso Claude 101 de Anthropic.
+
+**Última revisión:** 2026-07-26
+
+> [!NOTE]
+> Las funciones, límites y capacidades de Claude pueden cambiar según el modelo utilizado, el plan de suscripción y las actualizaciones del producto. Este material es un recurso educativo independiente elaborado para facilitar el estudio en español.
