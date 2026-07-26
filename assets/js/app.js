@@ -314,7 +314,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ------------------------------------------------------------------------
-  // 6. SECURE MARKDOWN PARSER (MARKED + DOMPURIFY)
+  // 6. SECURE MARKDOWN PARSER (MARKED + DOMPURIFY + GFM ALERT PARSER)
   // ------------------------------------------------------------------------
   function fetchMarkdown(filePath) {
     readingView.innerHTML = '<div style="text-align:center; padding:40px; color:var(--text-muted);">Cargando lección...</div>';
@@ -332,10 +332,10 @@ document.addEventListener('DOMContentLoaded', () => {
           rawHTML = parseFallbackMarkdown(mdText);
         }
 
-        // Sanitize HTML with DOMPurify if available
+        // Sanitize HTML with DOMPurify
         let cleanHTML = window.DOMPurify ? window.DOMPurify.sanitize(rawHTML, { ADD_ATTR: ['target'] }) : rawHTML;
         
-        // Post-process HTML for alert styles and copy code buttons
+        // Post-process HTML for GFM Callouts, Alert Callouts, Code Blocks, and Links
         cleanHTML = postProcessHTML(cleanHTML);
 
         readingView.innerHTML = cleanHTML;
@@ -357,8 +357,19 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function postProcessHTML(html) {
+    // Transform GFM blockquote alerts (> [!NOTE]) into styled callout divs
+    let processed = html.replace(/<blockquote>\s*<p>\s*\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\]([\s\S]*?)<\/blockquote>/gim, (match, type, content) => {
+      const cleanContent = content.replace(/<\/p>/g, '').replace(/<p>/g, '').trim();
+      return `
+        <div class="markdown-alert markdown-alert-${type.toLowerCase()}">
+          <div class="markdown-alert-header">${type.toUpperCase()}</div>
+          <div class="markdown-alert-content">${cleanContent}</div>
+        </div>
+      `;
+    });
+
     // Wrap tables in responsive wrapper
-    let processed = html.replace(/<table>/g, '<div class="table-wrapper"><table>').replace(/<\/table>/g, '</table></div>');
+    processed = processed.replace(/<table>/g, '<div class="table-wrapper"><table>').replace(/<\/table>/g, '</table></div>');
 
     // Wrap pre code blocks in code block container with copy button
     processed = processed.replace(/<pre><code class="(?:language-)?([a-z0-9_-]+)">([\s\S]*?)<\/code><\/pre>/gim, (match, lang, code) => {

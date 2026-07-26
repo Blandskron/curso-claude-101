@@ -1,81 +1,83 @@
 /* ==========================================================================
-   AULA VIRTUAL CLAUDE 101 - STYLESHEET (WCAG 2.2 AA ACCESSIBLE & EDITORIAL)
+   AULA VIRTUAL CLAUDE 101 - STYLESHEET (ANTHROPIC CLAUDE DOCS PALETTE & WCAG AA)
    ========================================================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
 
 /* --------------------------------------------------------------------------
-   THEME VARIABLES (DARK & LIGHT MODE HIGH CONTRAST WCAG 2.2 AA)
+   THEME VARIABLES (ANTHROPIC CLAUDE DOCS PALETTE)
    -------------------------------------------------------------------------- */
 :root[data-theme="dark"] {
-  --bg-main: #0b0f19;
-  --bg-sidebar: #111726;
-  --bg-card: #161e31;
-  --bg-card-hover: #1c273e;
-  --bg-header: rgba(17, 23, 38, 0.92);
+  --bg-main: #141312;
+  --bg-sidebar: #191816;
+  --bg-card: #211f1d;
+  --bg-card-hover: #2a2724;
+  --bg-header: rgba(25, 24, 22, 0.92);
   
-  --text-primary: #f8fafc;
-  --text-secondary: #cbd5e1;
-  --text-muted: #94a3b8;
+  --text-primary: #f4f3ef;
+  --text-secondary: #d1cdb8;
+  --text-muted: #9e988c;
   
   --border-color: rgba(255, 255, 255, 0.12);
-  --border-hover: rgba(217, 119, 6, 0.6);
+  --border-hover: rgba(218, 119, 86, 0.6);
   
-  --accent-amber: #f59e0b;
-  --accent-amber-light: rgba(245, 158, 11, 0.15);
-  --accent-indigo: #818cf8;
+  /* ANTHROPIC SIGNATURE TERRACOTTA / CLAY ACCENT */
+  --accent-amber: #da7756;
+  --accent-amber-light: rgba(218, 119, 86, 0.15);
+  --accent-indigo: #e0987a;
   
-  /* CODE BLOCK THEME VARS (DARK) */
-  --code-bg: #0d1322;
-  --code-header-bg: #151d30;
-  --code-header-text: #cbd5e1;
+  /* CODE BLOCK THEME VARS (DARK ANTHROPIC) */
+  --code-bg: #0f0e0d;
+  --code-header-bg: #191816;
+  --code-header-text: #d1cdb8;
   --code-btn-bg: rgba(255, 255, 255, 0.1);
-  --code-btn-text: #f8fafc;
+  --code-btn-text: #f4f3ef;
   --code-btn-hover-bg: rgba(255, 255, 255, 0.2);
-  --code-text: #f8fafc;
-  --code-inline-bg: #1e293b;
-  --code-inline-text: #f59e0b;
-  --code-inline-border: rgba(255, 255, 255, 0.15);
+  --code-text: #f4f3ef;
+  --code-inline-bg: #2a2724;
+  --code-inline-text: #da7756;
+  --code-inline-border: rgba(218, 119, 86, 0.3);
   
-  --shadow-card: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+  --shadow-card: 0 10px 30px -10px rgba(0, 0, 0, 0.6);
   --glass-backdrop: blur(16px) saturate(180%);
 }
 
 :root[data-theme="light"] {
-  --bg-main: #f8fafc;
+  --bg-main: #faf9f5; /* Anthropic signature warm parchment background */
   --bg-sidebar: #ffffff;
   --bg-card: #ffffff;
-  --bg-card-hover: #f1f5f9;
-  --bg-header: rgba(255, 255, 255, 0.92);
+  --bg-card-hover: #f3f1ea;
+  --bg-header: rgba(250, 249, 245, 0.92);
   
-  --text-primary: #0f172a;
-  --text-secondary: #334155;
-  --text-muted: #475569;
+  --text-primary: #181816; /* Deep warm stone black */
+  --text-secondary: #54524c;
+  --text-muted: #827e75;
   
-  --border-color: #cbd5e1;
-  --border-hover: rgba(217, 119, 6, 0.6);
+  --border-color: #e8e6df;
+  --border-hover: rgba(193, 95, 61, 0.6);
   
-  --accent-amber: #d97706;
-  --accent-amber-light: rgba(217, 119, 6, 0.12);
-  --accent-indigo: #4338ca;
+  /* ANTHROPIC TERRACOTTA LIGHT ACCENT */
+  --accent-amber: #c15f3d;
+  --accent-amber-light: rgba(193, 95, 61, 0.1);
+  --accent-indigo: #9a482b;
   
-  /* CODE BLOCK THEME VARS (LIGHT) */
-  --code-bg: #f1f5f9;
-  --code-header-bg: #e2e8f0;
-  --code-header-text: #334155;
+  /* CODE BLOCK THEME VARS (LIGHT ANTHROPIC) */
+  --code-bg: #f3f1ea;
+  --code-header-bg: #e8e6df;
+  --code-header-text: #54524c;
   --code-btn-bg: #ffffff;
-  --code-btn-text: #0f172a;
-  --code-btn-hover-bg: #cbd5e1;
-  --code-text: #0f172a;
-  --code-inline-bg: #f1f5f9;
-  --code-inline-text: #c2410c;
-  --code-inline-border: #cbd5e1;
+  --code-btn-text: #181816;
+  --code-btn-hover-bg: #d8d5ca;
+  --code-text: #181816;
+  --code-inline-bg: #f3f1ea;
+  --code-inline-text: #c15f3d;
+  --code-inline-border: #e8e6df;
   
-  --shadow-card: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
+  --shadow-card: 0 10px 25px -5px rgba(0, 0, 0, 0.04), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
   --glass-backdrop: blur(16px) saturate(180%);
 }
 
-/* Base Reset & Accessibility Focus */
+/* Base Reset & Focus */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -88,7 +90,7 @@
   border-radius: 4px;
 }
 
-/* Skip Link for WCAG Accessibility */
+/* Skip Link for Accessibility */
 .skip-link {
   position: absolute;
   top: -100px;
@@ -128,14 +130,14 @@ body {
   }
 }
 
-/* Background Glow Effects */
+/* Background Glow Effects (Anthropic Warm Tone) */
 .bg-glow {
   position: fixed;
   border-radius: 50%;
-  filter: blur(140px);
+  filter: blur(150px);
   z-index: -1;
   pointer-events: none;
-  opacity: 0.25;
+  opacity: 0.2;
 }
 
 .bg-glow-1 {
@@ -319,7 +321,7 @@ body {
 .lesson-item.active {
   background: var(--accent-amber-light);
   border-color: var(--border-hover);
-  color: var(--text-primary);
+  color: var(--accent-amber);
   font-weight: 600;
 }
 
@@ -407,7 +409,7 @@ body {
   border-color: var(--accent-amber);
 }
 
-/* Media Tabs (WCAG Tablist) */
+/* Media Tabs */
 .media-tabs {
   display: flex;
   background: var(--bg-main);
@@ -433,7 +435,7 @@ body {
 
 .tab-btn.active {
   background: var(--bg-card);
-  color: var(--text-primary);
+  color: var(--accent-amber);
   box-shadow: var(--shadow-card);
 }
 
@@ -535,7 +537,7 @@ body {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 16px;
-
+  color: var(--text-primary);
 }
 
 .glossary-grid {
@@ -555,7 +557,6 @@ body {
 
 .glossary-card:hover {
   border-color: var(--accent-amber);
-
 }
 
 .glossary-terms {
@@ -614,16 +615,11 @@ body {
 .nav-lesson-btn:hover {
   border-color: var(--accent-amber);
   background: var(--accent-amber-light);
-}
-
-.nav-lesson-btn.disabled {
-  opacity: 0.4;
-  cursor: not-allowed;
-  pointer-events: none;
+  color: var(--accent-amber);
 }
 
 /* --------------------------------------------------------------------------
-   FOOTER COMPONENT (FULL LOGO, DISCLAIMER & SOCIAL LINKS)
+   FOOTER COMPONENT
    -------------------------------------------------------------------------- */
 .app-footer {
   width: 100%;
@@ -761,6 +757,21 @@ body {
   font-weight: 700;
 }
 
+/* STYLED LINKS & SOURCES LINKS (ANTHROPIC TERRACOTTA STYLE) */
+.markdown-body a {
+  color: var(--accent-amber);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: var(--accent-amber-light);
+  text-underline-offset: 3px;
+  transition: all 0.2s ease;
+}
+
+.markdown-body a:hover {
+  color: var(--accent-indigo);
+  text-decoration-color: var(--accent-amber);
+}
+
 /* Styled Alert Callouts */
 .markdown-alert {
   margin: 32px 0;
@@ -795,9 +806,9 @@ body {
 }
 
 .markdown-alert-important {
-  border-left-color: #8b5cf6;
-  background: rgba(139, 92, 246, 0.08);
-  color: #8b5cf6;
+  border-left-color: #da7756;
+  background: var(--accent-amber-light);
+  color: var(--accent-amber);
 }
 
 .markdown-alert-warning {
